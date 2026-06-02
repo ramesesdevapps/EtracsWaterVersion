@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.json({ latestVersion: "1.0.10", date: "10-21-25" });
+    res.json({ latestVersion: "1.0.11", date: "06-02-26" });
 });
 
 const PORT = process.env.PORT || 3000;
