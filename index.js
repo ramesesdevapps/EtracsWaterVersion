@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.json({ latestVersion: "1.0.14", date: "08-04-26" });
+    res.json({ latestVersion: "1.0.15", date: "08-05-26" });
 });
 
 // Legacy app
